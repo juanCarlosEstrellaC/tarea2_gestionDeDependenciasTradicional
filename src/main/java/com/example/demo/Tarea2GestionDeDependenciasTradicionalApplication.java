@@ -35,17 +35,17 @@ public class Tarea2GestionDeDependenciasTradicionalApplication implements Comman
 		
 		miOperadora.setNombreEmpresa("Claro");
 		
-		miClientePrepago.setNombre("Alexis Macalister");
-		miClientePrepago.setCedula("179765456");
-		miClientePrepago.setId("78-sa");
-		miClientePrepago.setNumeroCelular("098778271");
-		miClientePrepago.setTipo("Prepago");
+		this.miClientePrepago.setNombre("Alexis Macalister");
+		this.miClientePrepago.setCedula("179765456");
+		this.miClientePrepago.setId("78-sa");
+		this.miClientePrepago.setNumeroCelular("098778271");
+		this.miClientePrepago.setTipo("Prepago");
 		
-		miClientePospago.setNombre("María Jose");
-		miClientePospago.setCedula("179765456");
-		miClientePospago.setId("sa");
-		miClientePospago.setNumeroCelular("098778271");
-		miClientePospago.setTipo("Pospago");
+		this.miClientePospago.setNombre("María Jose");
+		this.miClientePospago.setCedula("179765456");
+		this.miClientePospago.setId("sa");
+		this.miClientePospago.setNumeroCelular("098778271");
+		this.miClientePospago.setTipo("Pospago");
 		
 		//nuevoAbono.abonarSaldos("234567", miClientePrepago, null,  miOperadora);
 		nuevoAbono.abonarSaldos("234567", null, miClientePospago ,  miOperadora);
